@@ -36,7 +36,8 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
+  background: no-repeat url('/images/header_bg.png');
+  background-size: cover;
   width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
@@ -253,6 +254,7 @@ a {
     position : relative;
     z-index  : 9;
     display  : inline-block;
+    width    : 32.2%;
 }
 
 .vimeo-thumbnail::before {
