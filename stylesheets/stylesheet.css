@@ -245,3 +245,31 @@ a {
 .cf {
   zoom:1;
 }
+
+/* customizations */
+
+.vimeo-thumbnail {
+    cursor   : pointer;
+    position : relative;
+    z-index  : 9;
+    display  : inline-block;
+}
+
+.vimeo-thumbnail::before {
+    color       : white;
+    content     : "\25B6";
+    opacity     : 0.8;
+    position    : absolute;
+    display     : block;
+    text-shadow : 0 0 6px black;
+    z-index     : 100;
+    font-size   : 50px;
+    left        : 50%;
+    top         : 45%;
+    transform   : translate(-50%, -50%);
+}
+
+.vimeo-thumbnail:hover::before {
+    opacity     : 1;
+    text-shadow : 0 0 6px white;
+}
