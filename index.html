@@ -13,52 +13,73 @@
 
   <body>
 
-    <header>
+      <header>
+          <div class="container">
+              <h1>Kimotion</h1>
+              <h2>WebGL-based interactive art exhibit framework.  Make a kimotion!</h2>
+
+              <section id="downloads">
+                  <a href="https://github.com/mwcz/Kimotion/zipball/master" class="btn">Download as .zip</a>
+                  <a href="https://github.com/mwcz/Kimotion/tarball/master" class="btn">Download as .tar.gz</a>
+                  <a href="https://github.com/mwcz/Kimotion" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+              </section>
+          </div>
+      </header>
+
       <div class="container">
-        <h1>Kimotion</h1>
-        <h2>Make a kimotion!</h2>
+          <section id="main_content">
 
-        <section id="downloads">
-          <a href="https://github.com/mwcz/Kimotion/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/mwcz/Kimotion/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/mwcz/Kimotion" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+              <h2>What is Kimotion?</h2>
+
+              <p>Kimotion is a framework for building interactive art exhibits.
+                  With a pinch of JavaScript, Kinect, WebGL, and WebSockets
+                  you can create awesome interactive visualizations.</p>
+
+              <h2>Upcoming events</h2>
+
+              <ul>
+                  <li><b>Digital Motion hackathon</b> - Use Kimotion to build an art exhibit that will be featured at SPARKcon!  August 28, 2015, 5pm-9pm.  Red Hat, Raleigh NC</li>
+                  <li><b>geekSPARK</b> - The geekiest part of <a href="http://www.sparkcon.com/">SPARKcon</a>.
+                      Everyone's creations from the hackathon will be featured
+                      here.  September 18-19, 2015.  190 E Davie St, Raleigh, NC</li>
+              </ul>
+
+              <h2>Video demos</h2>
+
+              <iframe id="vimeo-player" src="https://player.vimeo.com/video/126292045" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+              <div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/7.jpg" data-vid-src="https://player.vimeo.com/video/136128034" /> </div>
+              <div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/6.jpg" data-vid-src="https://player.vimeo.com/video/136126008" /> </div>
+              <div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/5.jpg" data-vid-src="https://player.vimeo.com/video/133870922" /> </div>
+              <div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/4.jpg" data-vid-src="https://player.vimeo.com/video/129939012" /> </div>
+              <div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/3.jpg" data-vid-src="https://player.vimeo.com/video/126292045" /> </div>
+              <div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/2.jpg" data-vid-src="https://player.vimeo.com/video/124988550" /> </div>
+              <div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/1.jpg" data-vid-src="https://player.vimeo.com/video/124559463" /> </div>
+
+              <h2>Resources</h2>
+
+              <p>We're actively working on this in advance of the hackathon!
+                  There is currently an early draft of a <a
+                      href="https://github.com/mwcz/Kimotion/blob/master/TUTORIAL.md">tutorial</a>
+                  and several <a
+                      href="https://github.com/mwcz/Kimotion/tree/master/src/mods">example
+                      mods</a>.</p>
+
+              <h2>Contributors</h2>
+
+              <ul>
+                  <li><a href="http://palebluepixel.org/">Michael Clayton</a></li>
+                  <li><a href="https://github.com/philosophe">Greg Gardner</a></li>
+                  <li><a href="https://github.com/bjpritch">Ben Pritchett</a></li>
+                  <li><a href="https://github.com/kylebuch8">Kyle Buchanan</a></li>
+              </ul>
+
+          </section>
       </div>
-    </header>
 
-    <div class="container">
-      <section id="main_content">
-        <h2>
-<a id="what-is-kimotion" class="anchor" href="#what-is-kimotion" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Kimotion?</h2>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+      <script src="/javascripts/main.js"></script>
 
-<p>Kimotion is a framework for building interactive art exhibits.</p>
-
-<iframe id="vimeo-player" src="https://player.vimeo.com/video/126292045" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/7.jpg" data-vid-src="https://player.vimeo.com/video/136128034" /> </div>
-<div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/6.jpg" data-vid-src="https://player.vimeo.com/video/136126008" /> </div>
-<div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/5.jpg" data-vid-src="https://player.vimeo.com/video/133870922" /> </div>
-<div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/4.jpg" data-vid-src="https://player.vimeo.com/video/129939012" /> </div>
-<div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/3.jpg" data-vid-src="https://player.vimeo.com/video/126292045" /> </div>
-<div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/2.jpg" data-vid-src="https://player.vimeo.com/video/124988550" /> </div>
-<div class="vimeo-thumbnail"> <img src="/images/video_thumbnails/1.jpg" data-vid-src="https://player.vimeo.com/video/124559463" /> </div>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
-<script src="/javascripts/main.js"></script>
-
-<h2>
-<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
-
-<ul>
-    <li>Michael Clayton</li>
-    <li>Greg Gardner</li>
-    <li>Ben Pritchett</li>
-    <li>Kyle Buchanan</li>
-</ul>
-      </section>
-    </div>
-
-    
   </body>
 </html>
 
