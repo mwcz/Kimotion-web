@@ -60,6 +60,9 @@ header h2 {
   color: #666;
 }
 
+#downloads {
+    clear: both;
+}
 #downloads .btn {
   display: inline-block;
   text-align: center;
@@ -256,4 +259,11 @@ a:visited {
 .vimeo-thumbnail:hover::before {
     opacity     : 1;
     text-shadow : 0 0 6px white;
+}
+
+
+#logo {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
