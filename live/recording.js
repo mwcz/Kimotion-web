@@ -55,7 +55,7 @@ define(['exports', 'module', 'conf'], function (exports, module, _conf) {
             xhr.send();
         }
 
-        fetch_recording('http://scripta.co/kimotion/recordings/short-recording.bin');
+        fetch_recording('https://scripta.co/kimotion/recordings/short-recording.bin');
 
         var exports = {
             read: read,
